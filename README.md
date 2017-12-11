@@ -11,6 +11,13 @@
 
 - Bing-Image:
 
-	**bing_download**，下载bing七日内的背景（目前bing官方的jsonAPI限制在了七日内）。
-	**ioliu_download**，下载[必应壁纸网站](https://bing.ioliu.cn/)的所有必应壁纸，共600张。
+	-**bing_download**，下载bing七日内的背景（目前bing官方的jsonAPI限制在了七日内）。
+	-**ioliu_download**，下载[必应壁纸网站](https://bing.ioliu.cn/)的所有必应壁纸，共600张。
 	
+- lagou-python
+
+	爬取拉勾网中python的职位信息，加入了在线获取代理的`proxy.py`，使用代理池、header池、mongoDB数据库，Pool多进程爬取。
+	
+- Ruisi_Pic_Download
+
+	爬取校内PT网站睿思摄影板块的2000多张图片，代码在[睿思图片爬取实战](https://github.com/cloisonne/Ruisi_Pic_Download)
